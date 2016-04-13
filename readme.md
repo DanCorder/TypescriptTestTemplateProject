@@ -1,0 +1,4 @@
+#Typescript Test Template Project [![Build Status](https://travis-ci.org/DanCorder/TypescriptTestTemplateProject.png)](https://travis-ci.org/DanCorder/TypescriptTestTemplateProject) [![Coverage Status](https://coveralls.io/repos/github/DanCorder/TypescriptTestTemplateProject/badge.svg?branch=master)](https://coveralls.io/github/DanCorder/TypescriptTestTemplateProject?branch=master)
+This is a project to experiment with ways of configuring TypeScript projects to allow testing and code coverage reporting.
+
+The "production code" such as it is is simply compiled into a single JS file in /dist. Better packaging of production code is currently out of scope for this project.

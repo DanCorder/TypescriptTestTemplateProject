@@ -1,0 +1,30 @@
+{
+  "name": "module-test",
+  "version": "1.0.0",
+  "description": "A test project for testing TS code in a module.",
+  "devDependencies": {
+    "coveralls": "^2.11.9",
+    "istanbul": "^1.0.0-alpha.2",
+    "jasmine": "^2.3.1",
+    "jasmine-core": "^2.3.4",
+    "rimraf": "latest",
+    "tslint": "^3.5.0",
+    "typescript": "^1.8.2"
+  },
+  "scripts": {
+    "build:ts": "tsc -p src/script/",
+    "build:test": "tsc -p test/script/",
+    "build:all": "npm run build:ts && npm run build:test",
+    "build": "npm run test && npm run lint && npm run build:ts",
+
+    "test:ts": "npm run build:test && istanbul cover jasmine -- JASMINE_CONFIG_PATH=test/script/jasmine.json",
+    "test": "npm run test:ts",
+
+    "lint:ts": "tslint **/*[!.]?.ts",
+    "lint": "npm run lint:ts",
+
+    "clean:dist": "rimraf dist",
+    "clean:test": "rimraf tmp",
+    "clean": "npm run clean:dist && npm run clean:test"
+  }
+}
