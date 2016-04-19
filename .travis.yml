@@ -5,3 +5,5 @@ before_install:
 - npm install -g typescript@1.8.2
 script:
 - npm build
+after_script:
+"cat ./coverage/lcov.info | coveralls"
