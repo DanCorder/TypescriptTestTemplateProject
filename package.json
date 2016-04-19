@@ -1,5 +1,5 @@
 {
-  "name": "module-test",
+  "name": "typescript-test-template-project",
   "version": "1.0.0",
   "description": "A test project for testing TS code in a module.",
   "devDependencies": {
