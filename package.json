@@ -1,11 +1,12 @@
 {
   "name": "typescript-test-template-project",
   "version": "1.0.0",
-  "description": "A test project for testing TS code in a module.",
+  "description": "A template project to demonstrate TypeScript testing and coverage.",
   "repository": {
     "type": "git",
     "url": "git@github.com:DanCorder/TypescriptTestTemplateProject.git"
   },
+  "license": "MIT",
   "devDependencies": {
     "coveralls": "^2.11.9",
     "istanbul": "^1.0.0-alpha.2",
