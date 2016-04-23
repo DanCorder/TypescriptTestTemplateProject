@@ -2,7 +2,7 @@
     "compilerOptions": {
         "module": "amd",
         "target": "es5",
-        "outFile": "../../dist/main.js",
+        "outFile": "../dist/main.js",
         "sourceMap": true,
         "noEmitOnError": true,
         "noImplicitAny": true,

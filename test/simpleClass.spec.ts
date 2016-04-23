@@ -1,5 +1,5 @@
 /// <reference path="typings/main.d.ts" />
-import {SimpleClass} from "../../src/script/simpleClass";
+import {SimpleClass} from "../src/simpleClass";
 
 
 describe("SimpleClass", function() {

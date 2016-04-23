@@ -2,8 +2,8 @@
     "compilerOptions": {
         "module": "commonjs",
         "target": "es5",
-        "outDir": "../../tmp",
-        "rootDir": "../..",
+        "outDir": "../tmp",
+        "rootDir": "..",
         "sourceMap": true,
         "noEmitOnError": true,
         "noImplicitAny": true,
