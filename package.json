@@ -9,8 +9,8 @@
     "jasmine-core": "^2.3.4",
     "rimraf": "latest",
     "tslint": "^3.5.0",
-    "typescript": "^1.8.2",
-    "typings": "^0.7.9"
+    "typescript": "^1.8.10",
+    "typings": "^0.8.1"
   },
   "scripts": {
     "build:ts": "tsc -p src/",
