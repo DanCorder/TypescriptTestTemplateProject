@@ -9,20 +9,18 @@
     "jasmine-core": "^2.3.4",
     "rimraf": "latest",
     "tslint": "^3.5.0",
-    "typescript": "^1.8.2"
+    "typescript": "^1.8.2",
+    "typings": "^0.7.9"
   },
   "scripts": {
     "build:ts": "tsc -p src/",
     "build:test": "tsc -p test/",
     "build:all": "npm run build:ts && npm run build:test",
     "build": "npm run test && npm run lint && npm run build:ts",
-
     "test:ts": "npm run build:test && istanbul cover jasmine -- JASMINE_CONFIG_PATH=test/jasmine.json",
     "test": "npm run test:ts",
-
     "lint:ts": "tslint **/*[!.]?.ts",
     "lint": "npm run lint:ts",
-
     "clean:dist": "rimraf dist",
     "clean:test": "rimraf tmp",
     "clean": "npm run clean:dist && npm run clean:test"
